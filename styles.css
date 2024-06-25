@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    text-align: center;
+    color:#2d3332
+
+}
+h1{
+    margin:35px auto 10px auto;
+    font-family: vibes;
+    font-size: 5.5rem;
+    color: #4D869C;
+}
+/*if you want to center an element you can either use text align center in the parent element or you could use margin auto */
+
+.subtitle{
+    font-weight:normal;
+}
+
+h2{
+    font-family: marhey;
+    font-size: 2.2rem;
+    color: #4D869C;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: marhey;
+    color: #11999E;
+    font-size: 1.5rem;
+}
+
+a{
+    font-family: rubik;
+    text-decoration: none;
+    color: #11999E;
+    font-size: 1.2rem;
+}
+
+p{
+    font-family: rubik;
+}
+
+.top-container{
+    background-color: #CDE8E5;
+    padding-top: 100px;
+}
+.topcloud{
+    position:relative;
+    left:290px;
+    bottom:30px
+}
+.botcloud{
+    position:absolute;
+    left:300px
+}
+
+.profile img{
+    width: 250px;
+    height: 250px;
+}
+
+hr{
+    width:4%;
+    border-style: dotted;
+    border-bottom: none;
+    border-color: #b3bdbd;
+    border-width: 6px;
+    margin-bottom: 100px;
+
+
+}
+
+.profile{
+    width:40%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.computer-gif{
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+ 
+}
+.translate-gif{
+    width: 40%;
+    margin: 0 auto;
+    float: right
+}
+
+.skill-row{
+    width:50%;
+    margin:130px auto 125px auto;
+    text-align: right;
+}
+.skill-row p{
+    line-height: 2;
+}
+
+.contact-me{
+line-height: 2;
+}
+
+.btn {
+    background: #59C7F1;
+    background-image: -webkit-linear-gradient(top, #4ac1ca, #399999);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    padding: 0 25px;
+    box-shadow: 1px 1px 5px 0 #000000;
+    text-shadow: 1px 1px 30px #112a3e;
+    border: hidden;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin:35px;
+    width: 10%;
+}
+
+.btn:hover{
+    background-image: -webkit-linear-gradient(top, #3fa1a8, #2c7272);
+}
+
+.bottom-container{
+    background-color: #CDE8E5;
+    margin:50px 0 0 0;
+    padding: 65px;
+    text-align: center;
+}
+
+.footer-link{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-shadow: 1px 1px 3px #b3bdbd ;
+}
+
+.footer-link:hover{
+color: #ffffff;
+text-shadow: 1px 1px 5px #112a3e;
+}
+
+.bottom-container p{
+    color: rgb(180, 179, 179);
+    margin-top:40px;
+    font-size: 0.9rem;
+}
